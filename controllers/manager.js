@@ -19,15 +19,6 @@ const deleteUsers = async (req, res) => {
     }
 
 }
-// const filterUsersCards = async (req, res) => {
-//     try {
-        
-//     }
-//     catch (e) {
-//         res.status(400).send(e.message)
-//     }
-
-// }
 const getAllMassagesFromUsers = async (req, res) => {
     try {
         
@@ -51,5 +42,5 @@ module.exports={
     deleteUsers,
     getAllMassagesFromUsers,
     getAllMassagesFromMatchmakers,
-    filterUsersCards
+    
 }

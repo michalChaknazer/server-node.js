@@ -82,25 +82,14 @@ const sendQuestionPageToManager = async (req, res) => {
     }
 
 }
-// const filterUsersCards = async (req, res) => {
-//     try {
-        
-//     }
-//     catch (e) {
-//         res.status(400).send(e.message)
-//     }
-
-// }
 module.exports={
     enterWithNameAndPassword,
     getAllUsersCards,
     exitFromProfile,
-    deleteFromCart,
     deleteFromCart,
     AddToCart, 
     printQuestionPage,
     sendMessageToManager,
     sendLinkOfWebsite,
     sendQuestionPageToManager,
-    filterUsersCards
 }
